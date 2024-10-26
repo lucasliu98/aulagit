@@ -12,13 +12,13 @@ def receita_bolo_de_fuba():
     
     # Ajustar a quantidade de açúcar conforme a doçura desejada
     if doçura == 'Pouca':
-        xicaras_de_acucar = 1
-    elif doçura == 'Normal':
         xicaras_de_acucar = 2
+    elif doçura == 'Normal':
+        xicaras_de_acucar = 3
     elif doçura == 'Bastante':
-        xicaras_de_acucar = 4
+        xicaras_de_acucar = 5
     else:
-        xicaras_de_acucar = 2  # Valor padrão
+        xicaras_de_acucar = 3  # Valor padrão
     
     print("\n=== Receita de Bolo de Fubá ===\n")
     print("Ingredientes:")
